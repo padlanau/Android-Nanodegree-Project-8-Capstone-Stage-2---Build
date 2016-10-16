@@ -48,7 +48,7 @@ Required Components :
 - App implements a ContentProvider to access locally stored data.
 - Must implement at least one of the three :
 
-**** If it regularly pulls or sends data to/from a web service or API, app updates data in its cache at regular intervals using a SyncAdapter. OR If it needs to pull or send data to/from a web service or API only once, or on a per request basis (such as a search application), app uses an IntentService to do so. OR If it performs short duration, on-demand requests(such as search), app uses an AsyncTask.
+ If it regularly pulls or sends data to/from a web service or API, app updates data in its cache at regular intervals using a SyncAdapter. OR If it needs to pull or send data to/from a web service or API only once, or on a per request basis (such as a search application), app uses an IntentService to do so. OR If it performs short duration, on-demand requests(such as search), app uses an AsyncTask.
 - App uses a Loader to move its data to its views.
 
 
